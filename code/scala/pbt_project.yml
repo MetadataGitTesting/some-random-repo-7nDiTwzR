@@ -2,6 +2,21 @@ name: karoline.cremin
 description: User fork
 version: 1
 author: filiberto.koch@yahoo.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: filiberto.koch@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-04 18:07:26'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Melisa_Mante_I:
+    name: Melisa_Mante_I
+    description: Really solid info
+    createdAt: '2022-01-04 18:07:26'
+    author: filiberto.koch@yahoo.com
